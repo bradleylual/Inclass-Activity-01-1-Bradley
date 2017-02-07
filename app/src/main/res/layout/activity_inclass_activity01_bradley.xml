@@ -10,8 +10,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.introtoandroid.inclass_activity_01_1_bradley.InclassActivity01Bradley">
 
-    <TextView
+    <DatePicker
+        android:id="@+id/DatePicker01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:spinnersShown="true"/>
+
 </RelativeLayout>

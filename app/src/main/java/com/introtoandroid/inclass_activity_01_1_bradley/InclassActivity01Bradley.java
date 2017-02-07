@@ -10,4 +10,5 @@ public class InclassActivity01Bradley extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inclass_activity01_bradley);
     }
+
 }
